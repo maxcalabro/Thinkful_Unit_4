@@ -1,0 +1,9 @@
+1. Supervised. There is a specific outcome variable: whether or not someone contracts a disease. 
+
+2. Unsupervised. Transforming the images into variables would require finding similar characteristics between examples, and is a decomposition like PCA rather than a trained result like RFE.
+
+3. Could be either, depending on whether there is a clear definition for "Power Users". If it's users who fit specific criteria, then it could be supervised. If it is a group of users who stand out in some poorly-defined way, it could be unsupervised.
+
+4. Unsupervised. This would be a clustering task that doesn't necessarily have set boundaries or outcomes. It would be a matter of seeing which groups are most similar to each other, and creating boundaries based on that fit.
+
+5. Could be either. Using a decomposition method like PCA would be unsupervised, because it doesn't take into account the outcome variable Y. A different feature selection like Select K Best or RFE would be supervised because it does measure the effectiveness with regards to the outcome variable.
